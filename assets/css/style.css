@@ -1,44 +1,4 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Ecomart - Fashion eCommerce HTML Template
-    Author: Bdevs
-    Support: https://www.devsnews.com/support/
-    Description: Ecomart - Fashion eCommerce HTML Template
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-/************ TABLE OF CONTENTS ***************
-
-    01. common CSS
-    02. header CSS
-    03. banner CSS
-    04. product CSS
-    05. category CSS
-    06. features CSS
-    07. blog CSS
-    08. testimonial CSS
-    09. newsletter CSS
-    10. page-title CSS
-    11. about CSS
-    12. error CSS
-    13. contact CSS
-    14. shop CSS
-    15. faq CSS
-    16. register CSS
-    17. footer CSS
-
-
-
-**********************************************/
-/*
-
-
-*/
-/*----------------------------------------
-    01. common CSS
-----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 * {
   margin: 0;
@@ -5799,7 +5759,7 @@ html .ui-button.ui-state-disabled:active {
 .sign-check a {
   color: var(--clr-theme-1);
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .sign-check a:hover {
   color: var(--clr-common-heading);
@@ -5857,11 +5817,14 @@ html .ui-button.ui-state-disabled:active {
 .acount-login {
   margin-bottom: 30px;
 }
+a {
+  text-decoration: none !important;
+}
 .acount-login a {
   font-weight: 600;
   color: var(--clr-theme-1);
   margin-left: 5px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .acount-login a:hover {
   color: var(--clr-common-heading);
